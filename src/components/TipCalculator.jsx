@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import BillInput from "./BillInput";
 import SelectPercentage from "./SelectPercentage";
+import Output from "./Output";
+import Reset from "./Reset";
 
 export default function TipCalculator() {
   const [bill, setBill] = useState("");
